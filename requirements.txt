@@ -1,0 +1,22 @@
+# Core Python dependencies
+fastapi==0.110.0
+uvicorn==0.29.0
+pydantic==2.7.1
+
+# LLM and agent orchestration
+ollama==0.1.8  # Ensure this matches the latest pip Ollama client or omit if CLI only
+
+# PDF/Email/JSON parsing
+pdfplumber==0.10.3
+python-docx==1.1.0
+email-validator==2.1.0.post1
+
+# Redis (for shared memory)
+redis==5.0.3
+
+# Optional: For storing logs/output in SQLite
+sqlalchemy==2.0.29
+
+# Dev tools
+python-dotenv==1.0.1
+requests==2.31.0
