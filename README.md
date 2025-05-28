@@ -57,6 +57,19 @@ project-root/
 
 ---
 
+## Setup
+
+1. **Install Virtual Env & Setup Virtualenv:**
+    ```bash
+    virtualenv venv
+    ```
+    
+
+2. **Activate venv & Install Packages to venv:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 ## ▶️ How to Run
 
 1. **Start Redis (if you're using Redis):**
