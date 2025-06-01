@@ -10,7 +10,7 @@ This project is a simple multi-agent system that accepts documents (PDF, JSON, o
 - **JSON Agent**: Reads and cleans up JSON data, checks for missing or wrong fields
 - **Email Agent**: Reads emails, pulls out useful info like sender and urgency
 - **Memory Module**: Saves key info like source, type, and results (uses Redis or SQLite)
-- **LLM Support**: Uses the `gemma:1b` model from Ollama to help with classification
+- **LLM Support**: Uses the `gemma3:1b` model from Ollama to help with classification
 
 ---
 
@@ -19,7 +19,7 @@ This project is a simple multi-agent system that accepts documents (PDF, JSON, o
 - Python 3.10+
 - FastAPI (for APIs)
 - Redis or SQLite (shared memory)
-- Ollama (runs `gemma:1b` locally)
+- Ollama (runs `gemma3:1b` locally)
 - PDFPlumber, email parser tools, etc.
 
 ---
@@ -77,9 +77,9 @@ project-root/
    redis-server
    ```
 
-2. **Start Ollama with gemma:1b:**
+2. **Start Ollama with gemma3:1b:**
     ```bash
-    ollama run gemma:1b
+    ollama run gemma3:1b
     ```
 
 3. **Start the app (FastAPI):**

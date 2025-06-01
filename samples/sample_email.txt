@@ -1,0 +1,19 @@
+From: rachel@quantumtech.com
+To: support@flowbitai.com
+Subject: Request for Quotation - AI Agent Deployment
+Date: Wed, 29 May 2025 10:42:00 +0530
+
+Hello Flowbit Team,
+
+We are currently evaluating options for deploying a lightweight multi-agent system in our enterprise R&D division. We would like a formal quotation for the following:
+
+- Deployment of 3 custom agents (including intent classification)
+- Integration with Ollama-based LLMs
+- Shared memory persistence (SQLite preferred)
+- Email and JSON routing capabilities
+
+Please let us know the expected cost, timelines, and licensing model.
+
+Best regards,  
+Rachel Mehra  
+QuantumTech R&D  

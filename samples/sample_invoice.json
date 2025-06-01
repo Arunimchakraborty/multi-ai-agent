@@ -1,0 +1,14 @@
+{
+    "invoice_number": "INV-10234",
+    "date": "2025-05-20",
+    "sender": "Acme Corp",
+    "receiver": "Flowbit AI",
+    "items": [
+      {"description": "API Credits - May", "quantity": 1, "unit_price": 100.0},
+      {"description": "Premium Support", "quantity": 1, "unit_price": 50.0}
+    ],
+    "total_amount": 150.0,
+    "currency": "USD",
+    "payment_due": "2025-06-05"
+  }
+  
