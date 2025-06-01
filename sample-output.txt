@@ -1,0 +1,21 @@
+Memory Logs:
+
+Log 1: {'id': 4, 'timestamp': 1748800254.040205, 'source': 'sample_document.pdf', 'format': 'PDF', 'intent': 'General'}
+
+Log 2: {'id': 3, 'timestamp': 1748800217.2192562, 'source': 'sample_invoice.json', 'format': 'JSON', 'intent': 'Invoice'}
+
+Log 3: {'id': 2, 'timestamp': 1748800180.0119839, 'source': 'sample_email.txt', 'format': 'Email', 'intent': 'Regulation'}
+
+Log 4: {'id': 1, 'timestamp': 1748800131.57184, 'source': 'complaint_email.txt', 'format': 'Email', 'intent': 'Complaint'}
+
+Output Logs:
+
+{
+"status":"processed"
+"data":{
+"sender":"daniel.khan@bluecore.io"
+"subject":"Urgent Complaint Regarding Invoice Discrepancy"
+"summary":"A customer is raising a discrepancy in an invoice, claiming unauthorized charges and causing delays in processing. They request a corrected invoice and are warning of potential further action."
+"date":"27 May 2025"
+}
+}
