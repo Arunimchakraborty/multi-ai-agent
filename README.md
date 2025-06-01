@@ -17,43 +17,9 @@ This project is a simple multi-agent system that accepts documents (PDF, JSON, o
 ## 🧰 Tech Used
 
 - Python 3.10+
-- FastAPI (for APIs)
-- Redis or SQLite (shared memory)
+- SQLite (shared memory)
 - Ollama (runs `gemma3:1b` locally)
 - PDFPlumber, email parser tools, etc.
-
----
-
-## 📁 Folder Structure
-
-```
-project-root/
-│
-├── agents/
-│   ├── classifier_agent.py
-│   ├── json_agent.py
-│   └── email_agent.py
-│
-├── memory/
-│   ├── redis_store.py
-│   └── sqlite_store.py
-│
-├── utils/
-│   ├── file_loader.py
-│   ├── format_detector.py
-│   └── intent_detector.py
-│
-├── data/
-│   ├── sample_inputs/
-│   └── output_logs/
-│
-├── main.py
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── LICENSE
-```
-
 
 ---
 
@@ -82,9 +48,9 @@ project-root/
     ollama run gemma3:1b
     ```
 
-3. **Start the app (FastAPI):**
+3. **Start the app (Streamlit):**
     ```bash
-    uvicorn main:app --reload
+    streamlit run main.py
     ```
 
 

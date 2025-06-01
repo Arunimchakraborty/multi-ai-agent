@@ -9,7 +9,7 @@ def read_file(uploaded_file):
         return uploaded_file.getvalue().decode("utf-8")
 
 def main():
-    st.title("Document Classification and Routing")
+    st.title("Multi-agent Document Classifier and Router")
     
     uploaded_file = st.file_uploader("Upload a PDF or Text document", type=["pdf", "txt", "json", "eml"])
     
